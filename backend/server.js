@@ -10,7 +10,7 @@ const port = process.env.PORT;
 app.use(cors());
 app.use(bodyParser.json());
 mongoose
-  .connect(process.env.MONGO_URI)
+  .connect('mongodb+srv://karthickzenjade:karthickzenjade@project1.52jw8.mongodb.net/newdb?retryWrites=true&w=majority&appName=project1')
   .then(() => console.log("DB Connected"))
   .catch((err) => console.log(err.message));
 // Job.deleteMany({}).then(()=>console.log("Deleted"))//
