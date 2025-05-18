@@ -39,7 +39,7 @@ const PostJob = ({ isOpen, onClose, tamilNaduTopCities }) => {
     };
     try {
       console.log({ ...formData, status: draft });
-      const response = await axios.post("http://localhost:5000/api/job/post", {
+      const response = await axios.post("https://assessment-itn.onrender.com/api/job/post", {
         ...formData,
         status: draft,
       });

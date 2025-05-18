@@ -42,7 +42,7 @@ function App() {
   ];
   const getJobs = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/jobs", {
+      const response = await axios.get("https://assessment-itn.onrender.com/api/jobs", {
         params: filters,
       });
       setJobs(response.data);
