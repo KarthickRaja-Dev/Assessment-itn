@@ -1,0 +1,30 @@
+*{
+    font-family: 'Satoshi Variable', sans-serif;
+}
+.nav-link {
+  font-family: 'Satoshi Variable', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  padding: 5px 11.14px;
+  min-width: 123px;
+  min-height: 48px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transform: translateY(2px);
+}
+
+#shadow {
+  box-shadow: 0px 0px 14px 0px #D3D3D326;
+}
